@@ -1,0 +1,5 @@
+.navCustom {
+  background-color: rgba(223, 223, 223, 0.267);
+
+  backdrop-filter: blur(15px);
+}
