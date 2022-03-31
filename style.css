@@ -1,6 +1,7 @@
 body {
   font-family: "Space Mono", monospace;
   background-color: #c8c8c870;
+  user-select: none;
 }
 
 .navCustom {
