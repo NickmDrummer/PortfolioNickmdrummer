@@ -1,11 +1,9 @@
 html {
   scroll-behavior: smooth;
-  
-  
 }
 
 body {
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   transition: background 0.3s linear;
   user-select: none;
 }
@@ -28,8 +26,7 @@ body {
 }
 
 .fontSpace {
-font-family: 'Space Mono', monospace;
-
+  font-family: "Space Mono", monospace;
 }
 
 .blurBackgroundLight {
@@ -43,15 +40,15 @@ font-family: 'Space Mono', monospace;
   color: white;
   backdrop-filter: blur(10px);
 }
-.form-switch .form-check-input:checked[type=checkbox]:after {
+.form-switch .form-check-input:checked[type="checkbox"]:after {
   background-color: white;
   transition: background 0.3s linear;
 }
-.form-check-input[type=checkbox]:checked:focus {
+.form-check-input[type="checkbox"]:checked:focus {
   background-color: rgb(114, 0, 195);
   transition: background 0.3s linear;
 }
-.form-check-input[type=checkbox]:checked {
+.form-check-input[type="checkbox"]:checked {
   background-color: rgb(114, 0, 195);
   transition: background 0.3s linear;
 }
@@ -69,112 +66,130 @@ font-family: 'Space Mono', monospace;
 
 /* btn-indigo */
 
-.btn-gradIndigo {background-image: linear-gradient(to right, #6441A5 0%, #2a0845  51%, #6441A5  100%)}
 .btn-gradIndigo {
-  
-   text-transform: uppercase;
-   transition: 0.5s;
-   background-size: 200% auto;
-   color: white;            
-   
-   
-   
- }
+  background-image: linear-gradient(
+    to right,
+    #6441a5 0%,
+    #2a0845 51%,
+    #6441a5 100%
+  );
+}
+.btn-gradIndigo {
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+}
 
- .btn-gradIndigo:hover {
-   background-position: right center; /* change the direction of the change here */
-   color: #fff;
-   text-decoration: none;
- }
+.btn-gradIndigo:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
 
 /* btn-light */
- 
- .btn-gradLight {background-image: linear-gradient(to right, #E0EAFC 0%, #CFDEF3  51%, #E0EAFC  100%)}
- .btn-gradLight {
-   
-    text-align: center;
-    text-transform: uppercase;
-    transition: 0.5s;
-    background-size: 200% auto;
-    color: black;            
-    box-shadow: 0 0 20px #eee;
-    
-  }
 
-  .btn-gradLight:hover {
-    background-position: right center; /* change the direction of the change here */
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-  }
- 
+.btn-gradLight {
+  background-image: linear-gradient(
+    to right,
+    #e0eafc 0%,
+    #cfdef3 51%,
+    #e0eafc 100%
+  );
+}
+.btn-gradLight {
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: black;
+  box-shadow: 0 0 20px #eee;
+}
+
+.btn-gradLight:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
 /* btn-red */
 
-  
-  .btn-gradRed {background-image: linear-gradient(to right, #e52d27 0%, #b31217  51%, #e52d27  100%)}
-  .btn-gradRed {
-    
-     text-align: center;
-     text-transform: uppercase;
-     transition: 0.5s;
-     background-size: 200% auto;
-     color: white;            
-     
-     
-   }
+.btn-gradRed {
+  background-image: linear-gradient(
+    to right,
+    #e52d27 0%,
+    #b31217 51%,
+    #e52d27 100%
+  );
+}
+.btn-gradRed {
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+}
 
-   .btn-gradRed:hover {
-     background-position: right center; /* change the direction of the change here */
-     color: #fff;
-     text-decoration: none;
-   }
+.btn-gradRed:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
 
-    /* btn-dark */
-   
-   .btn-gradDark {background-image: linear-gradient(to right, #232526 0%, #414345  51%, #232526  100%)}
-   .btn-gradDark {
-      
-      text-align: center;
-      text-transform: uppercase;
-      transition: 0.5s;
-      background-size: 200% auto;
-      color: white;            
-     
-    }
+/* btn-dark */
 
-    .btn-gradDark:hover {
-      background-position: right center; /* change the direction of the change here */
-      color: #fff;
-      text-decoration: none;
-    }
+.btn-gradDark {
+  background-image: linear-gradient(
+    to right,
+    #232526 0%,
+    #414345 51%,
+    #232526 100%
+  );
+}
+.btn-gradDark {
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+}
 
-    /* btn-blue */
+.btn-gradDark:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
 
-    .btn-gradBlue {background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5  51%, #00d2ff  100%)}
-    .btn-gradBlue {
-       
-       text-align: center;
-       text-transform: uppercase;
-       transition: 0.5s;
-       background-size: 200% auto;
-       color: white;            
-       
-     }
+/* btn-blue */
 
-     .btn-gradBlue:hover {
-       background-position: right center; 
-       color: #fff;
-       text-decoration: none;
-     }
-    
-   
-  
+.btn-gradBlue {
+  background-image: linear-gradient(
+    to right,
+    #00d2ff 0%,
+    #3a7bd5 51%,
+    #00d2ff 100%
+  );
+}
+.btn-gradBlue {
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+}
+
+.btn-gradBlue:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
 
 #contact {
   margin-top: 100px;
 }
 
 .btn-gitHub {
-  background-color: #333333
+  background-color: #333333;
 }
 .btn-gitHub-indigo {
   background-color: rgb(89, 0, 152);
